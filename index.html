@@ -387,20 +387,63 @@
                        </li>
                    </ul>  
                </div>
+                <div class="footer-label">
+                     <p class="footer-item">Підпишіться на розсилку</p>
+                         <form class="footer-form">
+          <label for="footer-mail">
+            <input required id="footer-mail" class="footer-mail" type="email" placeholder='E-mail'>
+          </label>
+
+          <button id="button-mail" class="button-mail" type="submit">
+            Підписатись
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/symbol-defs.svg#footer-button"></use>
+            </svg>
+          </button>
+
+        </form>
+      </div>
            </div>
         </div>   
-    
-  
+
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal" >
+            
            <div class="footer-modal">
-            <button class="modal-btn" type="button" data-modal-close></button>
+            <button class="modal-btn" type="button" data-modal-close>
+            </button>
             <svg class="icon-modal">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
            </div>
+
+           <form class="modal-form">
+          <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
+          <label for="" class="modal-link">
+            <span class="modal-item">Ім'я</span>
+            <input required type="text" name="" id="m" class="modal-box">
+            <svg class="input-image" height="18" width="18">
+              <use href="./images/symbol-defs.svg#modal-people"></use>
+            </svg>
+          </label>
+           <label for="" class="modal-link">
+            <span class="modal-item">Телефон</span>
+            <input required type="text" name="" id="m" class="modal-box">
+            <svg class="input-image" height="18" width="18">
+              <use href="./images/symbol-defs.svg#modal-phone"></use>
+            </svg>
+          </label>
+           <label for="" class="modal-link">
+            <span class="modal-item">Пошта</span>
+            <input required type="text" name="" id="m" class="modal-box">
+            <svg class="input-image" height="18" width="18">
+              <use href="./images/symbol-defs.svg#modal-mail"></use>
+            </svg>
+          </label>
+           </form>
+
         </div>
     </div>
     <script src="./js/modal.js"></script>
