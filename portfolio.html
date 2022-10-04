@@ -156,16 +156,22 @@
     </main>
     <footer class="adress-footer">             
         <div class="container  footer-container ">
-                 <address class="footer ">
-                    <a href="./index.html" class="footer-logo">
-                    <span class="footer-logo-main ">Web</span><span class="logo-last">Studio</span>
-                     </a>
-                    <ul class="site-info">
-                        <li class="adress-info footer-link"><a href="https://goo.gl/maps/Zz9q5ZmVfx8zCcGr5" target="_blank" rel="noreferrer noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
-                        <li class="footer-link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li> 
-                        <li class="footer-link"><a href="tel:+38 096 111 11 11" class="link">+38 096 111 11 11</a></li>
-                      </ul>
-                </address>
+            <div>
+                <a href="./index.html" class="footer-logo">
+                    <address class="footer ">
+                      
+                       <span class="footer-logo-main ">Web</span><span class="logo-last">Studio</span>
+                       <ul class="site-info">
+                           <li class="adress-info footer-link"><a href="https://goo.gl/maps/Zz9q5ZmVfx8zCcGr5" target="_blank" rel="noreferrer noopener">м. Київ, пр-т Лесі Українки, 26</a></li>
+                           <li class="footer-link">
+                            <a class="footer-link-item link" href="mailto:info@devstudio.com">
+                            info@devstudio.com</a>                  
+                           <li class="footer-link">
+                            <a class="footer-link-item link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+                         </ul>
+                   </address>
+            </div>
+         
                 <div class="footer-second ">
                    <p class="footer-media"> Приєднуйтеся </p>
                    <ul class="social-media-list">
@@ -199,8 +205,25 @@
                        </li>
                    </ul>  
                </div>
+                <div class="footer-label">
+                     <p class="footer-item">Підпишіться на розсилку</p>
+                         <form class="footer-form">
+          <label for="footer-mail">
+            <input required id="footer-mail" class="footer-mail" type="email" placeholder='E-mail'>
+          </label>
+
+            <button id="button-mail" class="button-mail" type="submit">
+            Підписатись
+            <svg class="footer-svg" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-send-white"></use>
+            </svg>
+          </button>
+
+        </form>
+      </div>
            </div>
-  
+        </div>   
+
     </footer>
 </body>
 </html>
